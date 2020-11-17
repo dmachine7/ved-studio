@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 2em 8em;
+  font-size: 1.25em;
+}
+
+.navbar-boldlink {
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+
+.navbar-icon {
+  width: 50%;
+}
+
+.navbar-links {
+  width: 50%;
+  direction: rtl;
+  padding: 1em;
+}
+
+li {
+  padding: 0 0 0 2.5em;
+  width: 15vw;
+  list-style: none;
+  display: inline;
+}
+
+li:hover {
+  transition: all 0.2s ease;
+  color: var(--primaryColor);
+}
